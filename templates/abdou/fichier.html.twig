@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="UTF-8" />
+<style>
+.twosvg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(180deg);
+}
+.onesvg
+{
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.threesvg
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(270deg);
+
+}
+.foursvg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+ 
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+</style>
+    </head>
+    <body>
+
+        <label for="avatar">insérez votre fichier:</label>
+
+        <input type="file"
+               id="avatar" name="avatar"
+               accept="image/png, image/jpeg">
+
+
+
+
+
+
+
+
+
+ <div class="twosvg">
+        <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+              <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+              <stop stop-color="#53FFEE" offset="99.94%" />
+            </linearGradient>
+          </defs>
+          <ellipse fill="url(#a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd"
+            opacity=".5" />
+        </svg>
+      </div>
+
+
+      <div class="onesvg">
+        <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+              <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+              <stop stop-color="#53FFEE" offset="99.94%" />
+            </linearGradient>
+          </defs>
+          <ellipse fill="url(#a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd"
+            opacity=".5" />
+        </svg>
+      </div>
+
+
+      <div class="threesvg">
+        <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+              <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+              <stop stop-color="#53FFEE" offset="99.94%" />
+            </linearGradient>
+          </defs>
+          <ellipse fill="url(#a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd"
+            opacity=".5" />
+        </svg>
+      </div>
+
+      <div class="foursvg">
+        <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+              <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+              <stop stop-color="#53FFEE" offset="99.94%" />
+            </linearGradient>
+          </defs>
+          <ellipse fill="url(#a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd"
+            opacity=".5" />
+        </svg>
+      </div>
+    </body>
+</html>
